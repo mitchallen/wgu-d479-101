@@ -8,7 +8,7 @@ wgu-d479-101
 
 Photo by <a href="https://unsplash.com/@kazuo513?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kazuo ota</a> on <a href="https://unsplash.com/photos/white-sail-boat-on-sea-during-daytime-DAjg75Lzt0Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-* images/snorkeling
+* images/snorkeling.jpg
 
 Photo by <a href="https://unsplash.com/@vicuballesteros?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victoria Ballesteros</a> on <a href="https://unsplash.com/photos/a-person-in-scuba-gear-under-water-xsTqMVvStMA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
