@@ -131,3 +131,81 @@ h3 {
 .image-credit a:hover {
     text-decoration: underline;
 }
+
+/* Hamburger menu icon - hidden by default */
+#navbar .hamburger {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background: none;
+    padding: 10px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    #navbar {
+        width: calc(100% - 2rem - 4px);
+        margin: 10px;
+    }
+
+    #navbar .hamburger {
+        display: block;
+    }
+
+    #navbar ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    #navbar ul.show {
+        display: flex;
+    }
+
+    #navbar li {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Adjust other elements for mobile */
+    .top-section {
+        width: calc(100% - 40px);
+        margin: 60px 10px 20px 10px;
+    }
+
+    footer {
+        width: calc(100% - 40px);
+        margin: 60px 10px 20px 10px;
+    }
+}
+
+.mobile-header {
+    display: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.mobile-title {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #navbar {
+        width: calc(100% - 2rem - 4px);
+        margin: 10px;
+    }
+    /* ... rest of the mobile media query remains the same ... */
+}

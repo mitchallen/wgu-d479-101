@@ -14,6 +14,10 @@
         <img src="images/hero.jpg" alt="Taniti Hero Image">
         -->            
         <nav id="navbar">
+            <div class="mobile-header">
+                <button class="hamburger">☰</button>
+                <span class="mobile-title">Visit Taniti!</span>
+            </div>
             <ul>
                 <li><a href="#top">Home</a></li>
                 <li><a href="#things-to-do">Things to Do</a></li>  
@@ -83,5 +87,17 @@
         </footer>
 
     </main>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('#navbar ul').classList.toggle('show');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('#navbar a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('#navbar ul').classList.remove('show');
+            });
+        });
+    </script>
 </body>
 </html>
