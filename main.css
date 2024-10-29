@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #666666;
+    background-color: #48b4c9;
 }
 
 #navbar {
@@ -13,8 +14,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #48b4c9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 #navbar ul {
@@ -66,6 +67,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 
 footer {
@@ -204,8 +206,11 @@ h3 {
     }
 
     #navbar {
-        width: calc(100% - 2rem - 4px);
-        margin: 10px;
+        width: 100%;
+        margin: 0px;
     }
-    /* ... rest of the mobile media query remains the same ... */
+
+    footer {
+        width: 85%;
+    }
 }
